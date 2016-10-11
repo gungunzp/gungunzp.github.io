@@ -80,9 +80,9 @@ a {
 	}
 
 
-/* --------------- main ----------------- */
+/* --------------- menu ----------------- */
 
-.main_index {
+.menu_index {
     text-align: center;
     padding: 47px 0 34px;
 }
@@ -139,7 +139,7 @@ a {
 /* --------------- index page end ----------------- */
 
 
-/* --------------- massage page start ----------------- */
+/* --------------- single page settings start ----------------- */
 
 .logo_page {
     margin: 13px auto 0;
@@ -149,30 +149,32 @@ a {
     min-height: 100px;
 }
 
-.main_page {
+.menu_page {
     text-align: center;
     padding: 0px 0 0px;
 }
 
-.massage {
-    background: url(../img/massage.png) no-repeat center;
+.main {
+	background-repeat: no-repeat;
+	background-position: center;
     background-size: cover;
     min-height: 505px;
 }
 	.page_desc {
+		position: relative;
 		background: rgba(255, 255, 255, .9);
-		padding: 20px 15px;
+		padding: 2% 15px;
 	}
 	@media (min-width: 992px) {
-		.massage {
-	        background-size: contain;
-			background-position: 0 0;
+		.main {
+			background-position: 0;
+	        background-size: auto 100%;
 		}
 			.page_desc {
 				background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 5%, rgba(255, 255, 255, .8) 10%, rgba(255, 255, 255, 1) 100%);
 				float: right;
 				width: 55%;
-				padding: 20px 0 20px 5%;
+				padding: 2% 0 2% 5%;
 			}
 	}
 		.page_title {
@@ -185,7 +187,7 @@ a {
 				white-space: nowrap;
 			}
 		.page_txt {
-			padding: 10px 7% 50px 7%;
+			padding: 10px 7% 20px 7%;
 		}
 			.staff {
 				padding: 25px 0;
@@ -202,7 +204,6 @@ a {
 				}
 			.intro {
 				color: #55475E;
-/*				font-size: 17px;*/
 				font-weight: bold;
 				padding: 10px 0;
 			}
@@ -215,36 +216,63 @@ a {
 			}
 			.features {
 				color: #55475E;
-/*				font-size: 17px;*/
 				font-weight: bold;
 				padding-top: 15px;
 			}
 		.page_label {
 			float: right;
-			width: 220px;
 		}
 			.termine {
 				display: inline-block;
+				width: 80px;
 				color: #fff;
 				background-color: #776C7E;
 				font-weight: bold;
-				padding: 0 5px 0 10px;
+				padding-left: 10px;
 			}
 			.number {
 				display: inline-block;
+				width: 140px;
 				color: #55475E;
+				background: rgba(255, 255, 255, .9);
 				font-weight: bold;
+				margin-left: -5px;
+				padding-left: 5px;
 			}
-
-/* --------------- footer ----------------- */
-
+		.page_label_left {
+			float: right;
+		}
+		@media (min-width: 992px) {
+			.page_label_left {
+				position: absolute;
+				left: -40%;
+				bottom: 5%;
+			}
+		}
 .footer {
     min-height: 35px;
 }
+/* --------------- single page settings end ----------------- */
 
+
+/* --------------- physiotherapie page start ----------------- */
+.physiotherapie {
+    background-image: url(../img/physiotherapie.png);
+}
+/* --------------- physiotherapie page end ----------------- */
+
+
+/* --------------- massage page start ----------------- */
+.massage {
+    background-image: url(../img/massage.png);
+}
 /* --------------- massage page end ----------------- */
 
-
+/* --------------- pädiatrie page start ----------------- */
+.pädiatrie {
+    background-image: url(../img/pädiatrie.png);
+}
+/* --------------- pädiatrie page end ----------------- */
 /*
 
 1
