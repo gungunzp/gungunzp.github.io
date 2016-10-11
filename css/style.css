@@ -173,7 +173,7 @@ a {
 			.page_desc {
 				background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 5%, rgba(255, 255, 255, .8) 10%, rgba(255, 255, 255, 1) 100%);
 				float: right;
-				width: 55%;
+				width: 50%;
 				padding: 2% 0 2% 5%;
 			}
 	}
@@ -181,7 +181,7 @@ a {
 			position: relative;
 			color: #55475E;
 			font-size: 30px;
-			padding: 20px 0;
+			padding: 20px 140px 20px 0;
 		}
 			.dr {
 				color: #B72126;
@@ -189,9 +189,9 @@ a {
 			}
 			.page_logo {
 				position: absolute;
-				max-width: 80px;
-				top: 8px;
-				right: 0;
+				max-width: 110px;
+				top: 6px;
+				right: 15px;
 			}
 		.page_txt {
 			padding: 10px 7% 20px 7%;
@@ -226,6 +226,14 @@ a {
 				font-weight: bold;
 				padding-top: 15px;
 			}
+			.list {
+				font-size: 15px;
+			}
+			.more {
+				color: #55475E;
+				font-size: 16px;
+				font-weight: bold;
+			}
 		.page_label {
 			float: right;
 		}
@@ -235,6 +243,7 @@ a {
 				color: #fff;
 				background-color: #776C7E;
 				font-weight: bold;
+				line-height: 1.4;
 				padding-left: 10px;
 			}
 			.number {
@@ -243,7 +252,8 @@ a {
 				color: #55475E;
 				background: rgba(255, 255, 255, .9);
 				font-weight: bold;
-				margin-left: -5px;
+				line-height: 1.4;
+				margin-left: -4px;
 				padding-left: 5px;
 			}
 		.page_label_left {
@@ -262,24 +272,30 @@ a {
 /* --------------- single page settings end ----------------- */
 
 
-/* --------------- physiotherapie page start ----------------- */
+/* --------------- pages backgrounds start ----------------- */
+
 .physiotherapie {
     background-image: url(../img/physiotherapie.png);
 }
-/* --------------- physiotherapie page end ----------------- */
 
-
-/* --------------- massage page start ----------------- */
 .massage {
     background-image: url(../img/massage.png);
 }
-/* --------------- massage page end ----------------- */
 
-/* --------------- padiatrie page start ----------------- */
 .padiatrie {
     background-image: url(../img/padiatrie.png);
 }
-/* --------------- padiatrie page end ----------------- */
+
+.ergotherapie {
+    background-image: url(../img/ergotherapie.png);
+}
+
+.lnb {
+    background-image: url(../img/lnb.png);
+}
+
+/* --------------- pages backgrounds end ----------------- */
+
 /*
 
 1
