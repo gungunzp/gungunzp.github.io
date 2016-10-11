@@ -178,6 +178,7 @@ a {
 			}
 	}
 		.page_title {
+			position: relative;
 			color: #55475E;
 			font-size: 30px;
 			padding: 20px 0;
@@ -185,6 +186,12 @@ a {
 			.dr {
 				color: #B72126;
 				white-space: nowrap;
+			}
+			.page_logo {
+				position: absolute;
+				max-width: 80px;
+				top: 8px;
+				right: 0;
 			}
 		.page_txt {
 			padding: 10px 7% 20px 7%;
@@ -268,11 +275,11 @@ a {
 }
 /* --------------- massage page end ----------------- */
 
-/* --------------- pädiatrie page start ----------------- */
-.pädiatrie {
-    background-image: url(../img/pädiatrie.png);
+/* --------------- padiatrie page start ----------------- */
+.padiatrie {
+    background-image: url(../img/padiatrie.png);
 }
-/* --------------- pädiatrie page end ----------------- */
+/* --------------- padiatrie page end ----------------- */
 /*
 
 1
