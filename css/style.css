@@ -49,7 +49,8 @@ a {
 	.gradient_bg_index {
 		min-height: 100px;
 	}
-	@media (min-width: 768px) {	.gradient_bg_index {
+	@media (min-width: 768px) {
+		.gradient_bg_index {
 			min-height: 337px;
 		}
 	}
@@ -159,6 +160,8 @@ a {
 	background-position: center;
     background-size: cover;
     min-height: 505px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 	.page_desc {
 		position: relative;
@@ -174,30 +177,37 @@ a {
 				background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 5%, rgba(255, 255, 255, .8) 10%, rgba(255, 255, 255, 1) 100%);
 				float: right;
 				width: 50%;
-				padding: 2% 0 2% 5%;
+				padding: 2% 1% 2% 5%;
 			}
 	}
 		.page_title {
 			position: relative;
 			color: #55475E;
 			font-size: 30px;
-			padding: 20px 140px 20px 0;
+			margin: 30px 0;
+			padding: 0 140px 0 0;
 		}
 			.dr {
+				display: inline-block;
 				color: #B72126;
-				white-space: nowrap;
 			}
 			.page_logo {
 				position: absolute;
-				max-width: 110px;
-				top: 6px;
-				right: 15px;
+				width: 100%;
+				max-width: 120px;
+				top: -15px;
+				right: 0;
 			}
+		.date {
+			color: #B72126;
+			font-size: 22px;
+			margin-top: -25px;
+		}
 		.page_txt {
-			padding: 10px 7% 20px 7%;
+			padding: 1px 7% 20px 7%;
 		}
 			.staff {
-				padding: 25px 0;
+				margin: 20px 0;
 			}
 				.name {
 					display: inline-block;
@@ -212,10 +222,10 @@ a {
 			.intro {
 				color: #55475E;
 				font-weight: bold;
-				padding: 10px 0;
+				margin: 20px 0;
 			}
 			.page_txt p {
-				padding: 15px 0;
+				margin: 20px 0;
 			}
 			.page_txt ul {
 				list-style: disc;
@@ -224,15 +234,30 @@ a {
 			.features {
 				color: #55475E;
 				font-weight: bold;
-				padding-top: 15px;
+				margin-top: 20px;
 			}
 			.list {
 				font-size: 15px;
 			}
-			.more {
+			.bold {
 				color: #55475E;
 				font-size: 16px;
 				font-weight: bold;
+			}
+			.italic {
+				font-style: italic;
+			}
+			.page_txt cite {
+				display: block;
+				max-width: 300px;
+				color: #55475E;
+				font-size: 16px;
+				font-weight: bold;
+				font-style: italic;
+			}
+			.page_txt sup {
+				font-size: 12px;
+				vertical-align: super;
 			}
 		.page_label {
 			float: right;
@@ -248,13 +273,12 @@ a {
 			}
 			.number {
 				display: inline-block;
-				width: 140px;
 				color: #55475E;
 				background: rgba(255, 255, 255, .9);
 				font-weight: bold;
 				line-height: 1.4;
-				margin-left: -4px;
-				padding-left: 5px;
+				margin-left: -5px;
+				padding: 0 20px 0 5px;
 			}
 		.page_label_left {
 			float: right;
@@ -294,7 +318,60 @@ a {
     background-image: url(../img/lnb.png);
 }
 
+.motion_point {
+    background-image: url(../img/motion_point.png);
+}
+
+.coaching {
+    background-image: url(../img/coaching.png);
+}
+
+.heiltherapien {
+    background-image: url(../img/heiltherapien.png);
+}
+
+.darmgesundheit {
+    background-image: url(../img/darmgesundheit.png);
+}
+
 /* --------------- pages backgrounds end ----------------- */
+
+
+/* --------------- contacts backgrounds start ----------------- */
+
+.contacts {
+	padding: 40px 0;
+}
+	.col_2 {
+		padding: 0 15px;
+	}
+	@media (min-width: 768px) {
+		.col_2 {
+			float: left;
+			width: 50%;
+			padding: 0;
+		}
+	}
+	.image {
+		position: relative;
+	}
+		.image img {
+			width: 100%;
+		}
+		.reception {
+			position: absolute;
+			bottom: 5px;
+			color: #fff;
+			font-size: 14px;
+		}
+			.person {
+				display: inline-block;
+				margin: 5px 2%;
+			}
+
+
+/* --------------- contacts backgrounds end ----------------- */
+
 
 /*
 
