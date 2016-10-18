@@ -152,20 +152,18 @@ a {
 
 .menu_page {
     text-align: center;
-    padding: 0px 0 0px;
 }
 
 .main {
 	background-repeat: no-repeat;
 	background-position: center;
     background-size: cover;
-    min-height: 505px;
     max-width: 1600px;
     margin: 0 auto;
 }
 	.page_desc {
 		position: relative;
-		background: rgba(255, 255, 255, .9);
+		background: #fff;
 		padding: 2% 15px;
 	}
 	@media (min-width: 992px) {
@@ -209,7 +207,12 @@ a {
 			margin-top: -25px;
 		}
 		.page_txt {
-			padding: 1px 7% 20px 7%;
+			padding: 1px 0 20px;
+		}
+		@media (min-width: 992px) {
+			.page_txt {
+				padding: 1px 5% 20px 7%;
+			}
 		}
 			.staff {
 				margin: 20px 0;
@@ -259,8 +262,30 @@ a {
 				font-size: 12px;
 				vertical-align: super;
 			}
-		.page_label {
-			float: right;
+			.page_txt img {
+				width: 100%;
+			}
+			@media (min-width: 992px) {
+				.page_txt img {
+					display: none;
+				}
+			}
+		.page_label,
+		.page_label_left {
+			position: fixed;
+			bottom: 5px;
+			right: 5px;
+		}
+		@media (min-width: 992px) {
+			.page_label {
+				position: static;
+				float: right;
+			}
+			.page_label_left {
+				position: absolute;
+				left: -40%;
+				bottom: 5%;
+			}
 		}
 			.termine {
 				display: inline-block;
@@ -280,16 +305,6 @@ a {
 				margin-left: -5px;
 				padding: 0 20px 0 5px;
 			}
-		.page_label_left {
-			float: right;
-		}
-		@media (min-width: 992px) {
-			.page_label_left {
-				position: absolute;
-				left: -40%;
-				bottom: 5%;
-			}
-		}
 .footer {
     min-height: 35px;
 }
